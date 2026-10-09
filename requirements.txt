@@ -1,0 +1,7 @@
+# the engine
+anyjev==0.3.0
+numpy
+transformers>=5.0
+# the model server (Gemma 4 needs vLLM >= 0.29); our runs: vllm 0.29.0, torch 2.13.0+cu129
+vllm==0.29.0
+# the Decision Index kit: github.com/apolinario/decision-index at 9eb2dbe2a358004c8782c66e40a83ac07b953fec
