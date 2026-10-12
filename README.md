@@ -1,5 +1,10 @@
 # AnyJev L0 · Gemma-4-31B
 
+> [!NOTE]
+> This repository is the engine as it was submitted to the Decision Index 0.3 board (commit `50476e9`, which the
+> board links to); it is kept as it is. The engine is maintained in
+> [nokia-applied-research/AnyJev, `examples/decision_index/`](https://github.com/nokia-applied-research/AnyJev/tree/main/examples/decision_index).
+
 A training-free decision engine for the [Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index):
 the stock [`google/gemma-4-31B-it`](https://huggingface.co/google/gemma-4-31B-it) read through
 [AnyJev](https://github.com/nokia-applied-research/AnyJev)'s L0 readout. No weights are trained or published here; the
